@@ -1,0 +1,10 @@
+html, body {
+  -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none;
+
+  background-color: rgb(48, 48, 48);
+  /*네비게이션 바에 안가려지게*/
+  padding-top: 50px 0 0 0;
+  
+  display: inline-block;
+  margin: 0;
+}
