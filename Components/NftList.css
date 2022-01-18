@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Staatliches&display=swap');
+.nftListPage {
+    /*navBar에 안겹치게*/
+    margin: 150px 0 0 0;
+    width: 100vw;
+    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.nftListText {
+    display: inline-block;
+    color: white;
+
+    font-family: 'Pattaya', cursive;
+    font-size: 280%;
+    font-weight: 700;
+    letter-spacing :4px;
+
+    margin: 0;
+}
+
+.nftList {
+    display: inline-block;
+    color: white;
+    font-size: 170%;
+    font-family: Dongle;
+    list-style-type:none;
+    padding: 0;
+    margin: 0 0 80px 0;
+    border-bottom: 5px solid rgb(153, 153, 153);
+    text-align: center;
+}
+
+li {
+    cursor: pointer;
+
+    float: left;
+    padding: 60px 10px 0 10px;
+    font-family: 'Staatliches', cursive;
+
+    text-decoration-color: rgb(59, 59, 59);
+    transition-property: text-decoration;
+    transition-duration: 0.4s;
+}
+
+.nftList > li:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(183, 255, 231);
+}
+
+.cardWrapper {
+    margin: 0 80px 0 80px;
+    text-align:left;
+}
+
+.card {
+    display:inline-block;
+    vertical-align:middle;
+    text-align: center;
+    margin: 0 40px 40px 40px;
+    width:400px;
+    height: 600px;
+    background-color: #4b4141;
+
+    border-radius: 20px;
+}
+.cardImgDiv {
+    background-color: white;
+    width:390px;
+    height: 590px;
+    overflow:hidden;
+    margin:0px 10px 0 0;
+    border-radius: 3%;
+}
+
+.cardImg {
+    width:100%;
+    height:100%;
+    object-fit: cover;  
+}
+
+.cardImgDiv:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: transform 0.1s ease-in-out;
+}
