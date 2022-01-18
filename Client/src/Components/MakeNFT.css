@@ -1,0 +1,144 @@
+.MakeNFT_back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(56, 56, 56);
+  width: 100%;
+  min-height: 120vh;
+  color: black;
+}
+
+.MakeNFT_BOX {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 1200px;
+  font-size: 40px;
+  font-weight: 600;
+  cursor: default;
+  line-height: 1.5;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.img_box {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  height: 100%;
+  position: relative;
+}
+
+.img_box .img_span {
+  text-align: start;
+  padding: 10px;
+  margin-left: 10px;
+}
+.img_box .img_example {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: start;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.img_box input {
+  border: 3px dashed rgb(204, 204, 204);
+  background-color: transparent;
+  height: 100%;
+  max-height: 500px;
+  max-width: 500px;
+  font: inherit;
+  color: inherit;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 13px;
+  border-radius: 10px;
+}
+
+.name_box {
+  display: flex;
+  flex-direction: column;
+}
+.name_box .name_span {
+  text-align: start;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.name_box input {
+  max-height: 200px;
+  height: 100%;
+  max-width: 500px;
+  margin-left: 20px;
+  padding: 20px;
+  border: 3px solid rgb(204, 204, 204);
+  font-size: 20px;
+}
+
+.description_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.description_box .description_span {
+  text-align: start;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.description_box input {
+  max-height: 200px;
+  height: 100%;
+  max-width: 500px;
+  margin-left: 20px;
+  padding: 20px;
+  border: 3px solid rgb(204, 204, 204);
+  font-size: 20px;
+}
+
+.createbutton {
+  max-width: 200px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 20px;
+  background-color: rgb(32, 129, 226);
+  color: #fff;
+  cursor: pointer;
+}
+
+#title {
+  text-align: start;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.img {
+  position: absolute;
+  top: 140px;
+  left: 24px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 520px;
+  max-height: 355px;
+  height: 100%;
+  background-size: cover;
+}
+
+#imgbutton {
+  width: 100%;
+  max-width: 520px;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(32, 129, 226);
+  font-weight: 800;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+}
